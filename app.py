@@ -205,7 +205,7 @@ elif st.session_state.page == 11:
 
     st.title("📊 결과")
 
-    result_img = Image.open("result.png")
+    result_img = Image.open("cover.jpg")
     st.image(result_img, use_container_width=True)
 
     st.markdown(
