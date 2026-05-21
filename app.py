@@ -28,52 +28,52 @@ questions = [
     {
         "title": "1번 질문",
         "question": "제출 직전에 사소한 수정에 집착한 적이 얼마나 자주 있나요?",
-        "image": "assets/q1.png"
+        "image": "q1.png"
     },
     {
         "title": "2번 질문",
         "question": "해야 할 일을 정리하기 어려웠던 적이 얼마나 자주 있나요?",
-        "image": "assets/q2.png"
+        "image": "q2.png"
     },
     {
         "title": "3번 질문",
         "question": "공부하려다 다른 생각으로 빠진 적이 얼마나 자주 있나요?",
-        "image": "assets/q3.png"
+        "image": "q3.png"
     },
     {
         "title": "4번 질문",
         "question": "가만히 앉아 있기 힘들었던 적이 얼마나 자주 있나요?",
-        "image": "assets/q4.png"
+        "image": "q4.png"
     },
     {
         "title": "5번 질문",
         "question": "지루한 일에서 집중이 끊긴 적이 얼마나 자주 있나요?",
-        "image": "assets/q5.png"
+        "image": "q5.png"
     },
     {
         "title": "6번 질문",
         "question": "남 말을 듣다가 딴생각한 적이 얼마나 자주 있나요?",
-        "image": "assets/q6.png"
+        "image": "q6.png"
     },
     {
         "title": "7번 질문",
         "question": "물건을 자주 잃어버린 적이 있나요?",
-        "image": "assets/q7.png"
+        "image": "q7.png"
     },
     {
         "title": "8번 질문",
         "question": "회의나 수업 중 자리를 뜨고 싶었던 적이 얼마나 자주 있나요?",
-        "image": "assets/q8.png"
+        "image": "q8.png"
     },
     {
         "title": "9번 질문",
         "question": "대화 중 내가 말을 너무 많이 하고 있다고 느낀 적이 있나요?",
-        "image": "assets/q9.png"
+        "image": "q9.png"
     },
     {
         "title": "10번 질문",
         "question": "상대방 말을 끊고 끼어든 적이 얼마나 자주 있나요?",
-        "image": "assets/q10.png"
+        "image": "q10.png"
     },
 ]
 
@@ -130,7 +130,7 @@ if st.session_state.page == 0:
 
     st.title("🌱 ADHD 성향 설문")
 
-    cover = Image.open("assets/cover.png")
+    cover = Image.open("cover.png")
     st.image(cover, use_container_width=True)
 
     st.markdown("""
@@ -205,7 +205,7 @@ elif st.session_state.page == 11:
 
     st.title("📊 결과")
 
-    result_img = Image.open("assets/result.png")
+    result_img = Image.open("result.png")
     st.image(result_img, use_container_width=True)
 
     st.markdown(
