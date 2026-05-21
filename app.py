@@ -130,7 +130,7 @@ if st.session_state.page == 0:
 
     st.title("🌱 ADHD 성향 설문")
 
-    cover = Image.open("cover.png")
+    cover = Image.open("cover.jpg")
     st.image(cover, use_container_width=True)
 
     st.markdown("""
